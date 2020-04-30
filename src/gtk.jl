@@ -68,7 +68,7 @@ function render_gtk_video_1d(
     )
 
     global GTK_ROADWAY = roadway
-    actions = Array(LatLonAccel, length(scene))
+    actions = Array{LatLonAccel}(length(scene))
     models = Dict{Int, DriverModel}()
     models[1] = model1
     models[2] = model2

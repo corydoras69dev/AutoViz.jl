@@ -45,7 +45,7 @@ type RenderModel
     camera_rotation  :: Float64        # [rad]
     background_color :: RGB
 
-    RenderModel() = new(Array(Tuple,0), VecE2(0.0,0.0), 1.0, 0.0, RGB(0, 0, 0))
+    RenderModel() = new(Array{Tuple}(0), VecE2(0.0,0.0), 1.0, 0.0, RGB(0, 0, 0))
 end
 
 # Functions
