@@ -12,7 +12,7 @@ export
 
         TextParams
 
-abstract SceneOverlay
+abstract type SceneOverlay end
 
 type Overwash <: SceneOverlay
     color::Colorant

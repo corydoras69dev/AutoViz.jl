@@ -5,7 +5,7 @@ export
     CarFollowCamera,
     SceneFollowCamera
 
-abstract Camera
+abstract type Camera end
 
 camera_set!(::RenderModel, cam::Camera, ::Scene, ::Roadway, canvas_width::Int, canvas_height::Int) = error("camera_set! not implemented for Camera $cam")
 
