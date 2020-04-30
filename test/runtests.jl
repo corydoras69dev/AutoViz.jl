@@ -4,4 +4,4 @@ using AutoViz
 using NBInclude
 
 
-nbinclude(Pkg.dir("AutoViz", "doc", "AutoViz.ipynb"))
+@nbinclude(Pkg.dir("AutoViz", "doc", "AutoViz.ipynb"))
