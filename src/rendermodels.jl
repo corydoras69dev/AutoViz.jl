@@ -811,7 +811,7 @@ function render(rendermodel::RenderModel, ctx::CairoContext, canvas_width::Integ
     # reset the transform
     reset_transform(ctx)
     translate(ctx, canvas_width/2, canvas_height/2)                              # translate to image center
-    scale(ctx, rendermodel.camera_zoom, -rendermodel.camera_zoom )               # [pix -> m]
+    Cairo.scale(ctx, rendermodel.camera_zoom, -rendermodel.camera_zoom )               # [pix -> m]
     rotate(ctx, rendermodel.camera_rotation)
     translate(ctx, -rendermodel.camera_center.x, -rendermodel.camera_center.y) # translate to camera location
 
