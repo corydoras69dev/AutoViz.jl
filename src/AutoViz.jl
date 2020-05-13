@@ -1,4 +1,4 @@
-module AutoViz
+﻿module AutoViz
 
 using Reexport
 using Parameters

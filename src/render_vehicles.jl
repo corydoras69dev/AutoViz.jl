@@ -1,4 +1,4 @@
-function render!(
+﻿function render!(
     rendermodel::RenderModel,
     veh::Vehicle,
     color::Colorant=RGB(rand(), rand(), rand())

@@ -1,4 +1,4 @@
-export
+﻿export
         DEFAULT_GTK_CANVAS_WIDTH,
         DEFAULT_GTK_CANVAS_HEIGHT,
         DEFAULT_GTK_WINDOW_IS_RESIZABLE,

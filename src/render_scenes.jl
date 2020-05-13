@@ -1,4 +1,4 @@
-function render!(
+﻿function render!(
     rendermodel::RenderModel,
     scene::Scene;
     car_color::Colorant=COLOR_CAR_OTHER,
